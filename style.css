@@ -72,3 +72,37 @@ nav img {
   height: 7px;
   background-color: rgb(69, 69, 69);
 }
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: white;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.main input {
+  padding: 11px 100px 6px 14px;
+  color: white;
+  font-weight: 900;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: rgba(23, 23, 23, 0.3);
+}
